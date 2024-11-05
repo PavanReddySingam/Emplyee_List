@@ -5,6 +5,8 @@ const mongoose=require('mongoose');
 
 const app=express();
 
+const port=process.env.PORT || 5000;
+
 app.use(cors())
 app.use(express.json());
 mongoose.connect('mongodb://127.0.0.1:27017/immensphere').then(()=>{
@@ -86,6 +88,6 @@ app.get('/',(req,res)=>{
     return res.send('Hello, world.....')
 })
 
-app.listen(5000,()=>{
+app.listen(port,()=>{
     console.log('server is listening..')
 })
