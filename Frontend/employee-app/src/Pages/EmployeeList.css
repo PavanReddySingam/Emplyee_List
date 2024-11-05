@@ -1,0 +1,123 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.total_Page{
+    width: 100%;
+    background-color: rgb(154, 199, 239);
+    margin-right: 0px;
+}
+.header{
+    height: 70px;
+    width: 100%;
+    color: #070707;
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+    padding: 20px 0px;
+}
+.container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0px;
+}
+fieldset{
+    width: 40%;
+    height: 280px;
+    display: grid;
+    gap: 10px;
+    background-color: aliceblue;
+    border-radius: 25px;
+    box-shadow: 10px 10px 20px gray;
+    border: none;
+}
+form{
+    display: grid;
+    justify-items: space-between;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+input{
+    height: 27px;
+    width: 300px;
+    border-radius: 20px;
+    background-color: #fff;
+    
+
+}
+div button{
+    height: 50px;
+    width: 120px;
+    margin-left: 30%;
+    justify-content: center;
+    border-radius: 20px;
+    font-size: 17px;
+} 
+.btn-div{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.table-sec{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0px 120px;
+}
+table{
+    width: 80%;
+    background-color: aliceblue;
+    border-radius: 25px;
+    box-shadow: 10px 10px 20px gray;
+    padding: 20px 0px;
+    
+}
+th{
+    color: #008B8B;
+}
+tr{
+    height: 50px;
+}
+td{
+    text-align: center;
+}
+.td{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.actions{
+    display: flex;
+    padding: 0px;
+   
+}
+#btn{
+    background-color: #FFD700;
+}
+.actions button{
+    height: 50px;
+   padding: 0px 10px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px gray;
+    text-align: center;
+    margin-bottom: 10px;
+    background-color: red;
+    color: white;
+}
+.navlink{
+    color: white;
+    text-decoration: none;
+}
+.hidden{
+    display: none;
+}
+.show{
+    display: block;
+}
